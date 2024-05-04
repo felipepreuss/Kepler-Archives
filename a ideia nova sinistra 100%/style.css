@@ -1,0 +1,48 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+ * {
+    color:   #33ff00;
+    text-shadow: 1px 0 10px #36cc10ec;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: lighter;
+  }
+  #subtitle{
+   
+    text-align: center;
+  }
+  #title{
+    text-align: center;
+    color: #FFCC00;
+    text-shadow: #ffae00ef;
+    animation: colorSwitch 1s infinite;
+  }
+  @keyframes colorSwitch {
+    0%, 49.9% {
+      color: #33ff00; /* Green color */
+  }
+  50%, 100% {
+      color: #FFCC00; /* Orange color */
+  }
+}
+  body{
+    background-color: black;
+  }
+  #footermain{
+
+  position:absolute;
+  bottom:0;
+   
+}
+  #woa{
+    text-align: center;
+  }
+  #latest{
+    float: left;
+    margin-left: 100px
+  }
+  #fanfavorites{
+    float: right;
+    text-align: end;
+    margin-right: 100px;
+  }
+ 
