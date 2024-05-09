@@ -37,12 +37,31 @@
     text-align: center;
   }
   #latest{
-    float: left;
-    margin-left: 100px
+     text-align: center;
+    
   }
   #fanfavorites{
-    float: right;
-    text-align: end;
-    margin-right: 100px;
+ 
   }
  
+  .mainbox{
+    display: flex;
+   
+  }
+
+  .boxmain{
+    flex: 0.5; 
+    border: 2px solid #33ff00;
+   
+
+  }
+ 
+  #news { 
+    margin-top: 90;
+    text-align: center;
+  }
+  #recent{
+    margin-top: 90;
+    text-align: center;
+     
+  }
